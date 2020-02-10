@@ -11,5 +11,5 @@ class EmailAddressParser
   end
   
   def parse
-    name.split.collect()
+    name.split.collect do |address|
 end
