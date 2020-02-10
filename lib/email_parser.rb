@@ -11,6 +11,6 @@ class EmailAddressParser
   end
   
   def parse
-    name.split 
+    name.delete(",")
   end
 end
