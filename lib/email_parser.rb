@@ -11,5 +11,5 @@ class EmailAddressParser
   end
   
   def parse
-    name.
+    name.split.collect()
 end
